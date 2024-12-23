@@ -7,4 +7,4 @@ def caeser_cypher(string, key):
                 crypted_string += ""+ alphabet[(i + int(key))%26] # add the key to the index and add the corresponding letter
     return(crypted_string)
 
-print(caeser_cypher("abcz", 8))    
+print(caeser_cypher("abcz", 1))    
